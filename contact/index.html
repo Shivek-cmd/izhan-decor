@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Izhaan Decor Inc — Free Quote Mississauga</title>
+    <meta name="description" content="Contact Izhaan Decor Inc for a free in-home consultation and quote on window blinds and coverings in Mississauga. Call, email, or fill in the form.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../root.css">
+    <link rel="stylesheet" href="./contact.css">
+  </head>
+  <body>
+
+    <div data-include="../global/header.html"></div>
+
+    <main>
+
+      <!-- ═══════════════════════════════ PAGE HERO -->
+      <section class="contact-hero">
+        <div class="contact-hero__bg" aria-hidden="true">
+          <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="">
+        </div>
+        <div class="container contact-hero__inner">
+          <p class="eyebrow">Get in Touch</p>
+          <h1>Book your free<br><em>home consultation.</em></h1>
+          <p>We come to you — measure every window, walk you through your options, and give you a full quote. No pressure, no cost.</p>
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════ CONTACT MAIN -->
+      <section class="section contact-main">
+        <div class="container contact-main__grid">
+
+          <!-- FORM -->
+          <div class="contact-form-wrap">
+            <div class="contact-form-wrap__head">
+              <h2>Send us a message</h2>
+              <p>Fill in the form and we'll get back to you within 24 hours.</p>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="firstName" name="firstName" placeholder="Soheb" required autocomplete="given-name">
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Multani" required autocomplete="family-name">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+1 (905) 000-0000" autocomplete="tel">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="service">Product Interested In</label>
+                <div class="form-select-wrap">
+                  <select id="service" name="service">
+                    <option value="">— Select a product —</option>
+                    <option value="zebra">Zebra Blinds</option>
+                    <option value="roller">Roller Blinds</option>
+                    <option value="vertical">Vertical Blinds</option>
+                    <option value="sheer">Sheer Blinds</option>
+                    <option value="california">California Blinds</option>
+                    <option value="drapery">Drapery &amp; Curtains</option>
+                    <option value="multiple">Multiple Products</option>
+                    <option value="unsure">Not Sure Yet</option>
+                  </select>
+                  <svg class="form-select-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Your Address <span class="form-label-hint">(so we can plan your visit)</span></label>
+                <input type="text" id="address" name="address" placeholder="Street, City, Postal Code" autocomplete="street-address">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us about your windows, how many rooms, any specific requirements..." required></textarea>
+              </div>
+
+              <button class="btn btn--primary btn--full contact-form__submit" type="submit">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Send Message
+              </button>
+
+              <p class="contact-form__note">
+                Or email us directly at <a href="mailto:info@izhaandecor.ca">info@izhaandecor.ca</a>
+              </p>
+            </form>
+
+            <!-- Success state -->
+            <div class="contact-form-success" id="formSuccess" hidden>
+              <div class="contact-form-success__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <h3>Message sent!</h3>
+              <p>Thanks for reaching out. We'll be in touch within 24 hours to book your free consultation.</p>
+            </div>
+          </div>
+
+          <!-- INFO CARDS -->
+          <aside class="contact-info">
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h3>Our Location</h3>
+                <p>3721 Wyewood Rd<br>Mississauga, ON L4T 2A3</p>
+                <a href="https://maps.google.com/?q=3721+Wyewood+Rd,+Mississauga,+ON+L4T+2A3" target="_blank" rel="noopener noreferrer" class="contact-info-card__link">Get Directions →</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+              </div>
+              <div>
+                <h3>Email Us</h3>
+                <p>We respond within 24 hours,<br>Monday to Saturday.</p>
+                <a href="mailto:info@izhaandecor.ca" class="contact-info-card__link">info@izhaandecor.ca →</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <div>
+                <h3>Consultation Hours</h3>
+                <ul class="contact-hours">
+                  <li><span>Monday – Friday</span><span>9 AM – 7 PM</span></li>
+                  <li><span>Saturday</span><span>10 AM – 5 PM</span></li>
+                  <li><span>Sunday</span><span>By Appointment</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="contact-info-card contact-info-card--accent">
+              <div class="contact-info-card__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><path d="M9 12l2 2 4-4"/></svg>
+              </div>
+              <div>
+                <h3>Free Home Visit</h3>
+                <p>We come to you, measure every window, and provide a full quote — completely free, no obligation.</p>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+      <!-- ═══════════════════════════════ MAP -->
+      <div class="contact-map">
+        <iframe
+          src="https://maps.google.com/maps?q=3721+Wyewood+Rd,+Mississauga,+ON+L4T+2A3&output=embed"
+          width="100%"
+          height="420"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Izhaan Decor location — 3721 Wyewood Rd, Mississauga">
+        </iframe>
+      </div>
+
+      <!-- ═══════════════════════════════ TRUST STRIP -->
+      <section class="contact-trust">
+        <div class="container contact-trust__grid">
+          <div class="contact-trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><path d="M9 12l2 2 4-4"/></svg>
+            <span>Free in-home consultation</span>
+          </div>
+          <div class="contact-trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span>Response within 24 hours</span>
+          </div>
+          <div class="contact-trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span>Local Mississauga team</span>
+          </div>
+          <div class="contact-trust__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Premium quality, honest pricing</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <div data-include="../global/footer.html"></div>
+    <script src="./contact.js"></script>
+  </body>
+</html>
