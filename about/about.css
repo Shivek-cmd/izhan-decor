@@ -22,7 +22,7 @@
 .about-hero {
   position: relative;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   min-height: 90vh;
   overflow: hidden;
 }
@@ -54,7 +54,7 @@
 .about-hero__inner {
   position: relative;
   z-index: 1;
-  padding-block: 8rem 5rem;
+  padding-block: 5rem;
   max-width: 46rem;
 }
 
