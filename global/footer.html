@@ -196,7 +196,25 @@
 
   .site-footer__bottom-links {
     display: flex;
+    align-items: center;
     gap: 1.5rem;
+  }
+
+  .site-footer__powered-by {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    opacity: 0.65;
+    transition: opacity var(--ease);
+  }
+  a.site-footer__powered-by:hover {
+    color: rgba(255, 255, 255, 0.55);
+    opacity: 1;
+  }
+  .site-footer__powered-by img {
+    height: 20px;
+    width: auto;
+    display: block;
   }
 
   /* ── Responsive ────────────────────────────────────────── */
@@ -242,7 +260,7 @@
 
     <!-- Brand -->
     <div class="site-footer__brand-block">
-      <a class="site-footer__brand" href="https://sites.leadconnectorhq.com/preview/ZRjI0b0dRrtS1rWmfXck">
+      <a class="site-footer__brand" href="/home">
         <img class="site-footer__logo" src="https://assets.cdn.filesafe.space/pDreylt0DE2IrmVNC9Mn/media/6a2c3a0c16651db7bf0e846b.png" alt="Izhaan Decor Inc">
         <div class="site-footer__brand-name">
           <strong>Izhaan Decor</strong>
@@ -257,11 +275,11 @@
     <div>
       <h2 class="site-footer__title">Quick Links</h2>
       <ul class="site-footer__list">
-        <li><a href="https://sites.leadconnectorhq.com/preview/ZRjI0b0dRrtS1rWmfXck">Home</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/7Khaj4g1PF6rklNUDMKk">About Us</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">Services</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/Yfsl5wGaeXydse247kvx">Gallery</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/1hKUnDgy89s5HG7MLgOv">Contact</a></li>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </div>
 
@@ -269,12 +287,12 @@
     <div>
       <h2 class="site-footer__title">Our Services</h2>
       <ul class="site-footer__list">
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">Zebra Blinds</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">Roller Blinds</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">Vertical Blinds</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">Sheer Blinds</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">California Blinds</a></li>
-        <li><a href="https://sites.leadconnectorhq.com/preview/RR3e8lpguyVaawDedxJ2">Drapery</a></li>
+        <li><a href="/services">Zebra Blinds</a></li>
+        <li><a href="/services">Roller Blinds</a></li>
+        <li><a href="/services">Vertical Blinds</a></li>
+        <li><a href="/services">Sheer Blinds</a></li>
+        <li><a href="/services">California Blinds</a></li>
+        <li><a href="/services">Drapery</a></li>
       </ul>
     </div>
 
@@ -298,7 +316,7 @@
         <a href="mailto:info@izhaandecor.ca">info@izhaandecor.ca</a>
       </div>
 
-      <a class="site-footer__quote-btn" href="https://sites.leadconnectorhq.com/preview/1hKUnDgy89s5HG7MLgOv">Get a Free Quote</a>
+      <a class="site-footer__quote-btn" href="/contact">Get a Free Quote</a>
     </div>
 
   </div>
@@ -307,6 +325,10 @@
     <span>&copy; <span data-current-year></span> Izhaan Decor Inc. All rights reserved.</span>
     <div class="site-footer__bottom-links">
       <span>Mississauga, ON</span>
+      <a class="site-footer__powered-by" href="https://bizbull.ai/" target="_blank" rel="noopener noreferrer">
+        <span>Powered by</span>
+        <img src="https://assets.cdn.filesafe.space/pDreylt0DE2IrmVNC9Mn/media/6a43eb480f3445329fbed768.webp" alt="BizBull AI">
+      </a>
     </div>
   </div>
 </footer>
